@@ -602,16 +602,34 @@
               </svg>
             </div>
             <div class="modal-field">
-              <label for="user-text" class="modal-label">Comment</label>
+              <label for="user-comment" class="modal-label">Comment</label>
               <textarea
-                name="user-text"
-                id="user-text"
+                name="user-comment"
+                id="user-comment"
                 class="modal-textarea"
                 placeholder="Text input"
+                class="user-comment-text"
               ></textarea>
             </div>
             <div class="modal-field">
-              <p>I accept the terms and conditions of the Privacy Policy</p>
+              <input
+                id="user-privacy"
+                type="checkbox"
+                value="true"
+                name="user-privacy"
+                class="visually-hidden"
+              />
+              <label for="user-privacy" class="user-privacy-label"
+                ><span class="user-privacy-checkbox"
+                  ><svg class="checkbox-icon" width="10" height="8">
+                    <use
+                      href="./images/icons.svg#icon-Checkbox"
+                    ></use></svg></span
+                >I accept the terms and conditions of the Privacy Policy<a
+                  class="privacy-policy-link"
+                  >Privacy Policy</a
+                ></label
+              >
             </div>
           </div>
 
