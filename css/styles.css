@@ -488,7 +488,7 @@ img {
 }
 
 .footer-form {
-  dislpay: flex;
+  display: flex;
   gap: 24px;
 }
 
