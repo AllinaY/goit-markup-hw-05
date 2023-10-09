@@ -551,7 +551,6 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: 24px;
   background: #fcfcfc;
   padding: 72px 24px 24px 24px;
   transform: translate(-50%, -50%) scale(1);
@@ -602,22 +601,13 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
   margin-bottom: 16px;
-  width: 360px;
-  height: 24px;
-  display: flex;
-}
-
-.modal-field {
-  margin-bottom: 8px;
 }
 
 .modal-input {
   position: relative;
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  margin: 0 24px 8px 16px;
   width: 100%;
   height: 40px;
   padding-left: 38px;
@@ -666,19 +656,13 @@ img {
   display: block;
   color: #8e8f99;
   font-size: 12px;
-  font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.04em;
   margin-bottom: 4px;
 }
 
 .modal-field {
-  margin-bottom: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 100%;
-  height: 58px;
+  margin-bottom: 8px;
 }
 
 .modal-field-textarea {
