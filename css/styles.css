@@ -394,7 +394,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/*footer*/
+
 .footer {
   background-color: #2e2f42;
   padding-top: 100px;
@@ -621,7 +621,7 @@ img {
   border-color: #4d5ae5;
 }
 
-.modal-input:focus .modal-icon {
+.modal-input:focus + .modal-icon {
   fill: #4d5ae5;
 }
 .modal-icon {
